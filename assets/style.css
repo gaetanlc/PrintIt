@@ -290,8 +290,27 @@ footer div {
 
 }
 
+#prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
+}
+
 @media all and (max-width: 1250px) {
 	#contact > article {
 		flex: 2;
 	}
+
+	
 }
